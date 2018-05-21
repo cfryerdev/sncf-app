@@ -1,0 +1,10 @@
+export const HOST_GAME= 'HOST_GAME';
+export const JOIN_GAME= 'JOIN_GAME';
+export const START_GAME= 'START_GAME';
+export const END_GAME = 'END_GAME';
+export const UPDATE_MARKET = 'UPDATE_MARKET';
+export const UPDATE_PENS = 'UPDATE_PENS';
+export const START_TURN = 'START_TURN';
+export const END_TURN = 'END_TURN';
+export const PLACE_CUBES = 'PLACE_CUBES';
+export const TRADE_CUBES = 'TRADE_CUBES';

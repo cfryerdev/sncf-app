@@ -1,0 +1,80 @@
+
+.hexagon {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: 1px 7px;
+  background-color: #fff;
+  text-align: center;
+}
+.hexagon, .hexagon::before, .hexagon::after {
+  /* easy way: height is width * 1.732
+  actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+  remove border-radius for sharp corners on hexagons */
+
+  width: 22px;
+  height: 38px;
+
+  /* width: 67px;
+  height: 116px; */
+}
+.hexagon::before {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+.hexagon::after {
+  background-color: inherit;
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
+.hexagon:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  /* top: 59px; */
+  top: 20px;
+}
+.hexagon:hover {
+  cursor: pointer;
+  z-index: 105;
+  -webkit-box-shadow: 0px 0px 50px 5px  rgba(90,115,214, 1);
+  -moz-box-shadow: 0px 0px 50px 5px rgba(90,115,214, 1);
+  box-shadow: 0px 0px 50px 5px rgba(90,115,214, 1);
+}
+.hexagon:active {
+  background-color: #e0e1e2;
+  z-index: 110;
+}
+.hexanone {
+  position: relative;
+  display: inline-block;
+  /* width: 67px; */
+  width: 21px;
+  height: 38px;
+  margin: 1px 18px;
+}
+.hexanone:nth-child(even) {
+  /* top: 59px; */
+  top: 19px;
+}
+.hexagontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 140%;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  z-index: 100;
+}
+.ibws-fix {
+  /* inline-block whitespace fix */
+  font-size: 0;
+}
+.honeycomb {
+  padding-left: 20px;
+  margin-bottom: 100px;
+}

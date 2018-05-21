@@ -1,0 +1,32 @@
+{
+  "name": "SNCF Transcontinental",
+  "description": "Play a part in the Transcontinental United States Railroad with SNCF.",
+  "author": "Chris Fryer",
+  "maxScore": 20,
+  "colors": {
+    "background": "#f2f2f2",
+    "empty": "#f2f2f2",
+    "blank": "#FFFFFF",
+    "start": "#c4c4c4",
+    "town": "#d8bd45",
+    "city": "#7356c4",
+    "capital": "#a50808",
+    "mountain": "#896b4f"
+  },
+  "media": {
+    "start": "https://i.imgur.com/B0eD0qA.png",
+    "city": "https://imgur.com/NAaPhB8.png",
+    "mountain": "https://imgur.com/PxDnOqw.png",
+    "cube_white": "https://imgur.com/BsV0ERQ.png",
+    "cube_black": "https://imgur.com/quI4L7W.png",
+    "cube_red": "https://imgur.com/7AHTOTn.png",
+    "cube_blue": "https://imgur.com/n8DiIKO.png",
+    "cube_green": "https://imgur.com/qySeqEh.png",
+    "cube_yellow": "https://imgur.com/h8pR2AN.png",
+    "cube_purple": "https://imgur.com/7AHTOTn.png"
+  },
+  "tiles": 
+[["null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null"],["null","city","","","town","mountain","","","","","","","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null",""],["null","start","","town","","mountain","","","","","","town","","","","","","","null","","null","null","null","null","null","null","null","null","null","","","town"],["null","","","","mountain","","","city","","","","","","","","","","","","town","","","null","null","null","null","null","","town","","",""],["town","","","town","mountain","","town","","","town","","","","","town","","","","","","","","","null","null","null","null","","","town","","null"],["","town","","mountain","mountain","city","","","mountain","","","","","","","","city","","","","","","town","null","","","","","","capital","","null"],["start","","mountain","mountain","","","","","mountain","mountain","town","","","","","","","","","","","","","null","","","mountain","","","start","null","null"],["","town","","mountain","","","capital","","","mountain","","city","","","","","","","","town","","","capital","","","mountain","mountain","town","","null","null","null"],["","","","","","","","","town","mountain","mountain","town","","","","","town","","","","","","","","","mountain","mountain","","town","","null","null"],["city","town","","","","","","","mountain","","mountain","","","","","","","","","","","","town","","town","mountain","","town","","start","null","null"],["start","","","","town","","town","","","","","","","","town","","","","city","town","","","","","mountain","","town","","","","null","null"],["null","null","","","","","","","","","town","","","","","","town","","","","","","","town","","","","","town","null","null","null"],["null","null","start","capital","","","","","","","","","","","","","city","","","town","","town","","","","town","","","null","null","null","null"],["null","null","null","null","","","city","","","city","","","","","","","","","","","","","","","","","","","town","null","null","null"],["null","null","null","null","null","null","null","null","null","null","","","town","","town","","capital","","","null","city","null","null","null","null","null","","","start","null","null","null"],["null","null","null","null","null","null","null","null","null","null","null","null","","","","city","","null","","null","null","null","null","null","null","null","null","null","","town","null","null"],["null","null","null","null","null","null","null","null","null","null","null","null","null","null","","","","null","null","null","null","null","null","null","null","null","null","null","","","","null"],["null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","town","null","null","null","null","null","null","null","null","null","null","null","null","null","city","null"]]
+,
+  "css": ""
+}

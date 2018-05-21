@@ -1,0 +1,43 @@
+{
+  "name": "Sample Board",
+  "description": "Sample SNCF React Board",
+  "author": "Chris Fryer",
+  "colors": {
+    "background": "#f2f2f2",
+    "empty": "#f2f2f2",
+    "blank": "#FFFFFF",
+    "start": "#c4c4c4",
+    "town": "#d8bd45",
+    "city": "#7356c4",
+    "capital": "#a50808",
+    "mountain": "#896b4f"
+  },
+  "media": {
+    "start": "https://i.imgur.com/B0eD0qA.png",
+    "city": "https://imgur.com/NAaPhB8.png",
+    "mountain": "https://imgur.com/PxDnOqw.png",
+    "cube_white": "https://imgur.com/BsV0ERQ.png",
+    "cube_black": "https://imgur.com/quI4L7W.png",
+    "cube_red": "https://imgur.com/7AHTOTn.png",
+    "cube_blue": "https://imgur.com/n8DiIKO.png",
+    "cube_green": "https://imgur.com/qySeqEh.png",
+    "cube_yellow": "https://imgur.com/h8pR2AN.png",
+    "cube_purple": "https://imgur.com/7AHTOTn.png"
+  },
+  "tiles": 
+  [
+    ["start", "", "", "", "", "city", "mountain", "", "", "", "", "null", "null", "", "town", "city", "", "", "", "", "", "", "", "", "city", "mountain", "mountain"],
+    ["", "", "town", "", "", "", "mountain", "mountain", "", "", "city", "", "null", "null", "", "", "", "", "", "town", "", "", "", "", "town", "", "mountain"],
+    ["", "", "", "", "capital", "", "", "mountain", "", "", "", "", "", "null", "", "", "", "", "", "", "start", "", "", "town", "", "", "mountain"],
+    ["", "", "", "", "", "", "", "", "", "", "town", "", "", "", "town", "", "", "", "", "", "", "", "", "", "capital", "", ""],
+    ["", "", "town", "", "", "", "", "", "", "town", "", "", "", "", "capital", "mountain", "", "", "", "", "", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", "town", "", "", "", "", "", "", "", "mountain", "mountain", "", "", "", "", "", "", "", "town", "", "", ""],
+    ["", "", "", "", "", "city", "mountain", "", "", "", "", "", "", "", "town", "city", "", "", "", "", "start", "city", "", "", "", "", ""],
+    ["", "", "town", "", "", "", "mountain", "mountain", "", "", "city", "", "", "", "", "", "", "", "", "", "", "", "town", "", "", "town", "city"],
+    ["", "", "", "", "capital", "", "", "mountain", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+    ["", "", "start", "", "", "", "", "", "", "", "town", "", "", "", "town", "", "", "mountain", "mountain", "", "", "", "", "", "", "", ""],
+    ["", "", "town", "", "", "", "", "", "", "town", "", "", "start", "", "", "mountain", "mountain", "", "", "", "", "town", "town", "city", "", "", ""],
+    ["", "", "", "", "", "capital", "town", "", "", "", "", "", "", "", "mountain", "mountain", "capital", "", "", "", "", "", "", "", "", "start", ""]
+  ],
+  "css": ""
+}

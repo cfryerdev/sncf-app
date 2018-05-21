@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Merriweather, Georgia, serif;
+  font-size: 62.5%;
+}
+body {
+  background: #d2d2d2;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.start {
+  background: #c4c4c4 !important;
+}
+
+.town {
+  background: #d8bd45 !important;
+}
+
+.city {
+  background: #7356c4 !important;
+}
+
+.capital {
+  background: #a50808 !important;
+}
+
+.mountain {
+  background: #896b4f !important;
+}
+
+.null {
+  background: transparent !important;
+}
+
+.null:hover {
+  cursor: default;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.scoreboard {
+  margin: 20px 0px 40px 0px;
+  font-size: 12px;
+}
+
+h2 {
+  margin-top: 0px;
+}

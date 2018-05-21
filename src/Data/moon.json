@@ -1,0 +1,32 @@
+{
+  "name": "SNCF Moon",
+  "description": "Play SNCF on the moon!",
+  "author": "Chris Fryer",
+  "maxScore": 20,
+  "colors": {
+    "background": "#f2f2f2",
+    "empty": "#f2f2f2",
+    "blank": "#FFFFFF",
+    "start": "#c4c4c4",
+    "town": "#d8bd45",
+    "city": "#7356c4",
+    "capital": "#a50808",
+    "mountain": "#896b4f"
+  },
+  "media": {
+    "start": "https://i.imgur.com/B0eD0qA.png",
+    "city": "https://imgur.com/NAaPhB8.png",
+    "mountain": "https://imgur.com/PxDnOqw.png",
+    "cube_white": "https://imgur.com/BsV0ERQ.png",
+    "cube_black": "https://imgur.com/quI4L7W.png",
+    "cube_red": "https://imgur.com/7AHTOTn.png",
+    "cube_blue": "https://imgur.com/n8DiIKO.png",
+    "cube_green": "https://imgur.com/qySeqEh.png",
+    "cube_yellow": "https://imgur.com/h8pR2AN.png",
+    "cube_purple": "https://imgur.com/7AHTOTn.png"
+  },
+  "tiles": 
+[["null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","null","null","null","null","","","","","","","","null","null","null","null","null","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","null","null","","","","","","capital","","","","","","null","null","null","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","","","","","city","","","town","","","city","","","","","null","null","null","null","null","null","null","null"],["null","null","null","null","null","","","","","","","","","","","","","","","","","","","","null","null","null","null","null","null"],["null","null","null","","","town","","","town","","","","town","","town","","town","","","","town","","","town","","","null","null","null","null"],["null","","","","","","","","","town","","town","","","","","","town","","town","","","","","","","","","null","null"],["null","","","","city","","","","","","","","","start","start","start","","","","","","","","","city","","","","null","null"],["","capital","","","town","","","","city","","","","","start","mountain","start","","","","","city","","","","town","","","capital","","null"],["","","","","town","","","","","town","","town","","","start","","","town","","town","","","","","town","","","","","null"],["null","","","","city","","","","","","","","","","","","","","","","","","","","city","","","","null","null"],["null","null","","","","town","","","town","","","","town","","town","","town","","","","town","","","town","","","","null","null","null"],["null","null","null","null","","","","","","","","city","","","","","","city","","","","","","","","null","null","null","null","null"],["null","null","null","null","null","null","","","","town","","","","","","","","","","town","","","","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","null","","","","","","","town","","","","","","","null","null","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","null","null","null","","","","","capital","","","","","null","null","null","null","null","null","null","null","null","null","null"],["null","null","null","null","null","null","null","null","null","null","null","null","","null","","null","","null","null","null","null","null","null","null","null","null","null","null","null","null"]]
+,
+  "css": ""
+}
